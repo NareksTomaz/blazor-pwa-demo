@@ -1,0 +1,16 @@
+
+@inherits LayoutComponentBase
+
+<div style="display:flex; height:100vh;">
+    <nav style="width: 200px; background-color: #f0f0f0; padding: 1rem;">
+        <ul style="list-style:none; padding:0;">
+            <li><a href="/">Home</a></li>
+            <li><a href="/page1">Page 1</a></li>
+            <li><a href="/page2">Page 2</a></li>
+            <li><a href="/page3">Page 3</a></li>
+        </ul>
+    </nav>
+    <main style="flex:1; padding:1rem;">
+        @Body
+    </main>
+</div>
